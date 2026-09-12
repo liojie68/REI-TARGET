@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#0a0a0a" android:gravity="center" android:orientation="vertical" android:padding="32dp">
+    <TextView android:id="@+id/customText" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="LOCK BY NHPROJECT" android:textColor="#ef4444" android:textStyle="bold" android:padding="8dp" android:background="#1a0a0a" android:layout_marginBottom="20dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Device Locked" android:textColor="#fff" android:textSize="22sp" android:textStyle="bold"/>
+    <EditText android:id="@+id/pinInput" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#141414" android:hint="PIN" android:inputType="numberPassword" android:padding="14dp"
+        android:textColor="#fff" android:textSize="20sp" android:gravity="center" android:layout_marginTop="20dp"/>
+    <TextView android:id="@+id/errView" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#ef4444" android:layout_marginTop="10dp"/>
+    <Button android:id="@+id/btnUnlock" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:backgroundTint="#b91c1c" android:text="UNLOCK" android:textColor="#fff" android:layout_marginTop="20dp"/>
+</LinearLayout>
